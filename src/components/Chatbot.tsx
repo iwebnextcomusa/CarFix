@@ -142,7 +142,7 @@ export default function Chatbot() {
 
       {/* Chat Window Container */}
       {isOpen && (
-        <div className="bg-slate-950/95 border border-slate-800 rounded-2xl w-[90vw] sm:w-[400px] h-[550px] shadow-2xl overflow-hidden flex flex-col transition-all duration-300 transform scale-100 origin-bottom-right">
+        <div className="bg-slate-950/95 border border-slate-800 rounded-2xl w-[90vw] sm:w-[400px] h-[480px] max-h-[calc(100vh-120px)] shadow-2xl overflow-hidden flex flex-col transition-all duration-300 transform scale-100 origin-bottom-right">
           
           {/* Window Header */}
           <div className="bg-gradient-to-r from-primary to-slate-900 px-4 py-3.5 border-b border-slate-800 flex items-center justify-between">
