@@ -1,0 +1,6 @@
+{
+  "name": "CarFix Dealership",
+  "description": "A futuristic, high-performance web platform and dealership inventory for CarFix, featuring sleek UI, AI chatbot assistance, interactive vehicle customization, dynamic filtering, and financial calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

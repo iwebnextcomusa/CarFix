@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-primary: #0A3D62;
+  --color-primary-dark: #072a44;
+  --color-primary-light: #125585;
+  --color-accent: #F39C12;
+  --color-accent-hover: #D6820C;
+}
+
+/* Custom Scrollbar for modern touch */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #04121a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0c2b42;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #144366;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(10, 61, 98, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(10, 61, 98, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #ffffff 30%, #F39C12 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
